@@ -1,12 +1,12 @@
-import styled from 'styled-components';
-
 import React from 'react';
 import PropTypes from 'prop-types';
+
+import styled from 'styled-components';
 
 function Logo({ className }) {
   return (
     <svg width="183" height="79" viewBox="0 0 183 79" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <g clip-path="url(#clip0)">
+      <g clipPath="url(#clip0)">
         <g filter="url(#filter0_d)">
           <path d="M91.4362 62.6594C91.4362 63.3242 91.1988 63.8945 90.7239 64.3703C90.249 64.8462 89.6799 65.0841 89.0165 65.0841H86.6003V47.6945C86.6003 44.3705 87.5709 42.1032 89.5158 40.8926C91.4571 39.682 93.5661 39.0767 95.8427 39.0767C97.0263 39.0767 98.224 39.3041 99.4321 39.752C100.64 40.2033 101.6 40.8576 102.313 41.7113C103.734 43.5623 104.446 45.938 104.446 48.8351C104.446 51.8267 103.734 54.248 102.313 56.1024C100.892 57.9078 99.0655 58.8106 96.8378 58.8106C95.6541 58.8106 94.6101 58.5971 93.7093 58.1703C92.7595 57.6944 92.0018 56.9596 91.4327 55.9624V62.6594H91.4362ZM99.5403 49.0451C99.5403 47.1941 99.1842 45.7666 98.4754 44.7694C97.7631 43.7722 96.7435 43.2719 95.4202 43.2719C94.1387 43.2719 93.1471 43.7722 92.4348 44.7694C91.7714 45.6721 91.4397 47.0962 91.4397 49.0451C91.4397 50.8505 91.7958 52.2046 92.5046 53.1073C93.2169 54.1045 94.233 54.6049 95.5598 54.6049C96.7924 54.6049 97.7631 54.1045 98.4754 53.1073C99.1877 52.1101 99.5403 50.756 99.5403 49.0451Z" fill="white" />
           <path d="M105.892 33.9438H108.451C109.114 33.9438 109.684 34.1713 110.158 34.6191C110.63 35.0705 110.871 35.6303 110.871 36.2916V58.4467H105.895V33.9438H105.892Z" fill="white" />
@@ -35,8 +35,8 @@ function Logo({ className }) {
         </g>
       </g>
       <defs>
-        <filter id="filter0_d" x="82.6003" y="33.9438" width="95.3997" height="39.1403" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <filter id="filter0_d" x="82.6003" y="33.9438" width="95.3997" height="39.1403" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
           <feOffset dy="4" />
           <feGaussianBlur stdDeviation="2" />
@@ -44,8 +44,8 @@ function Logo({ className }) {
           <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
           <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
         </filter>
-        <filter id="filter1_d" x="59.9117" y="0.000488281" width="18.0136" height="18.0358" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <filter id="filter1_d" x="59.9117" y="0.000488281" width="18.0136" height="18.0358" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
           <feOffset dy="4" />
           <feGaussianBlur stdDeviation="2" />
@@ -53,8 +53,8 @@ function Logo({ className }) {
           <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
           <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
         </filter>
-        <filter id="filter2_d" x="74.0939" y="2.5293" width="12.5859" height="12.5952" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <filter id="filter2_d" x="74.0939" y="2.5293" width="12.5859" height="12.5952" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
           <feOffset dy="4" />
           <feGaussianBlur stdDeviation="2" />
@@ -62,8 +62,8 @@ function Logo({ className }) {
           <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
           <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
         </filter>
-        <filter id="filter3_d" x="42.9908" y="50.2075" width="39.0548" height="26.9191" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <filter id="filter3_d" x="42.9908" y="50.2075" width="39.0548" height="26.9191" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
           <feOffset dy="4" />
           <feGaussianBlur stdDeviation="2" />
@@ -71,8 +71,8 @@ function Logo({ className }) {
           <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
           <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
         </filter>
-        <filter id="filter4_d" x="-3.99826" y="10.106" width="112.946" height="74.9112" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <filter id="filter4_d" x="-3.99826" y="10.106" width="112.946" height="74.9112" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
           <feOffset dy="4" />
           <feGaussianBlur stdDeviation="2" />
@@ -80,8 +80,8 @@ function Logo({ className }) {
           <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
           <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
         </filter>
-        <filter id="filter5_d" x="144.731" y="61.9355" width="32.8923" height="21.1793" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <filter id="filter5_d" x="144.731" y="61.9355" width="32.8923" height="21.1793" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
           <feOffset dy="4" />
           <feGaussianBlur stdDeviation="2" />
