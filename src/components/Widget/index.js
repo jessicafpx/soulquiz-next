@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
 const Widget = styled.div`
+  width: 100%;
+
   margin-top: 24px;
-  margin-bottom: 24px;
 
   background-color: rgba(9, 14, 44, 0.5);
   border-radius: 8px;
@@ -26,6 +27,7 @@ Widget.Header = styled.header`
   display: flex;
   justify-content: flex-start;
   align-items: center;
+
   padding: 18px 32px;
   background-color: rgba(123, 98, 153, 0.8);
 
