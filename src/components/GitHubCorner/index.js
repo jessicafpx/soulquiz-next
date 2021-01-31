@@ -12,7 +12,6 @@ const Wrapper = styled.div`
 const SVGWrapper = styled.svg`
   fill: ${({ theme }) => theme.colors.primary};
   color: ${({ theme }) => theme.colors.contrastText};
-  opacity: 0.8;
   cursor: pointer;
   &:hover .octo-arm{
     animation:octocat-wave 560ms ease-in-out
