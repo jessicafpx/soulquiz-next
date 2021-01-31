@@ -2,7 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 const FooterWrapper = styled.footer`
-  background-color: rgba(202, 93, 178, 0.5);
+  background-color: ${({ theme }) => theme.colors.mainBg}90;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.1);
   padding: 10px 20px;
   display: flex;
   align-items: center;
@@ -18,13 +19,12 @@ const FooterWrapper = styled.footer`
     color: white;
     text-decoration: none;
     transition: .3s;
+
     &:hover,
     &:focus {
       opacity: .5;
     }
-    span {
-      text-decoration: underline;
-    }
+
   }
 `;
 
