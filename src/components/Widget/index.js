@@ -2,10 +2,9 @@ import styled from 'styled-components';
 
 const Widget = styled.div`
   width: 100%;
-
   margin-top: 24px;
-
-  background-color: rgba(9, 14, 44, 0.5);
+  background-color: ${({ theme }) => theme.colors.mainBg};
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 8px;
   overflow: hidden;
 
@@ -27,9 +26,8 @@ Widget.Header = styled.header`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-
   padding: 18px 32px;
-  background-color: rgba(123, 98, 153, 0.8);
+  background-color: ${({ theme }) => theme.colors.primary};
 
   * {
     margin: 0;
@@ -54,7 +52,7 @@ Widget.Content = styled.div`
 
 Widget.Topic = styled.a`
   outline: 0;
-  text-text-decoration: none;
+  text-decoration: none;
   color: ${({ theme }) => theme.colors.contrastText};
   background-color: ${({ theme }) => `${theme.colors.primary}40`};
   padding: 10px 15px;
