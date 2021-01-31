@@ -1,6 +1,6 @@
 {
-  "bg": "https://wallpaperaccess.com/full/160406.jpg",
-    "title": "Planet Quiz",
+  "bg": "https://cdn.abcotvs.com/dip/images/9004110_122320-cc-pixar-soul-new-thumb-img.jpg?",
+    "title": "Soul Quiz",
       "description": "Teste os seus conhecimentos sobre os planetas do sistema solar",
         "questions": [
           {
@@ -31,12 +31,12 @@
           ],
             "theme": {
     "colors": {
-      "primary": "#7B6299",
-        "secondary": "#CA5DB2",
-          "mainBg": "#090E2C",
-            "contrastText": "#FFFFFF",
-              "wrong": "#7B6299",
-                "success": "#CA5DB2"
+      "primary": "#B86AB6",
+        "mainBg": "#7877BD",
+          "contrastText": "#FFFFFF",
+            "borderInput": "#C0E2E4",
+              "fillInput": "#6F6EAF"
+
     },
     "borderRadius": "4px"
   }
