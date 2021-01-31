@@ -6,11 +6,16 @@ const InputBase = styled.input`
   width: 100%;
   padding: 15px;
   font-size: 14px;
-  border: 1px solid ${({ theme }) => theme.colors.primary};
+  border: 1px solid ${({ theme }) => theme.colors.borderInput};
+  border-radius: 4px;
   color: ${({ theme }) => theme.colors.contrastText};
   background-color: ${({ theme }) => theme.colors.mainBg};
   outline: 0;
   margin-bottom: 25px;
+
+  &::placeholder{
+    color: #fff;
+  }
 `;
 
 export default function Input({ onChange, placeholder, ...props }) {
