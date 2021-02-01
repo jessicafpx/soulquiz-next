@@ -6,6 +6,8 @@
 # Soul Quiz
 Este projeto é um quiz sobre o filme Soul, da Pixar, desenvolvido durante a Imersão React da Alura usando Next.js.
 
+https://soulquiz.jessicafpx.vercel.app/
+
 
 ### Tecnologias
 - Next.js
@@ -13,10 +15,12 @@ Este projeto é um quiz sobre o filme Soul, da Pixar, desenvolvido durante a Ime
 - JavaScript
 - Styled-Component
 - Eslint
+- Framer Motion
 - Commitizen
 
 ### Conhecimentos obtidos
 - Utilização do Next.js para criação de páginas totalmente renderizadas pelo servidor, possibilitanto a otimização do conteúdo;
+- Utilização da lib Framer Motion para criar animação dos conteúdos;
 - Deploy automático na Vercel;
 - Utilização da lib Commitizen para facilitar a criação de commits semânticos.
 
