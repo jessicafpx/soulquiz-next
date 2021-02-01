@@ -6,10 +6,10 @@ const AlternativesForm = styled.form`
       background-color: ${({ theme }) => theme.colors.primary};
 
       &[data-status="SUCCESS"] {
-        background-color: ${({ theme }) => theme.colors.success};
+        background-color: #6bdfb8;
       }
       &[data-status="ERROR"] {
-        background-color: ${({ theme }) => theme.colors.wrong};
+        background-color: #ff8983;
       }
     }
     &:focus {
