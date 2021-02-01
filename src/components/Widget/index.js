@@ -54,7 +54,7 @@ Widget.Topic = styled.a`
   outline: 0;
   text-decoration: none;
   color: ${({ theme }) => theme.colors.contrastText};
-  background-color: ${({ theme }) => `${theme.colors.primary}40`};
+  background-color: ${({ theme }) => `${theme.colors.fillInput}`};
   padding: 10px 15px;
   margin-bottom: 8px;
   cursor: pointer;
