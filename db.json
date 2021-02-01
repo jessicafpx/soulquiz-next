@@ -1,33 +1,122 @@
 {
   "bg": "https://cdn.abcotvs.com/dip/images/9004110_122320-cc-pixar-soul-new-thumb-img.jpg?",
     "title": "Soul Quiz",
-      "description": "Teste os seus conhecimentos sobre os planetas do sistema solar",
+      "description": "Teste os seus conhecimentos sobre o filme Soul, da Pixar",
         "questions": [
           {
-            "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-            "title": "Como fazer um seletor por id via CSS?",
-            "description": "Essa é pra aquecer",
+            "image": "https://media3.giphy.com/media/TdFCfukb8LJMofZIhA/giphy.gif?cid=ecf05e474a112d602a2ce62b63cf598c45eda954a44b3365&rid=giphy.gif",
+            "title": "Qual a data de lançamento do filme no Brasil?",
             "answer": 2,
             "alternatives": [
-              ".elemento",
-              "*elemento",
-              "#elemento",
-              "%elemento"
+              "5 de janeiro de 2021",
+              "6 de janeiro de 2021",
+              "7 de janeiro de 2021",
+              "8 de janeiro de 2021"
             ]
           },
           {
-            "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-            "title": "Como fazer um background gradiente com css?",
-            "description": "Faz tempo em haha ",
+            "image": "https://media3.giphy.com/media/ilEvHQNh9gv8ZQO4i3/giphy.gif?cid=ecf05e47cd5a930d271ef5a86b882abdae54775ad8debcda&rid=giphy.gif",
+            "title": "Qual o nome do lugar onde as novas almas adquirem personalidade antes de irem para a Terra?",
             "answer": 0,
             "alternatives": [
-              "background: linear-gradient(#e66465, #9198e3);",
-              "background: gradient(#e66465, #9198e5);"
+              "Pré Vida",
+              "Além Vida",
+              "Outro Mundo",
+              "Lugar Nenhum"
+            ]
+          },
+          {
+            "image": "https://media0.giphy.com/media/JzzC1rfn9uDYqa4bfv/giphy.gif?cid=ecf05e47wzh4py1runkvxsk7dzzexyb5c9fkn9aj5287jugb&rid=giphy.gif",
+            "title": "Qual o nome da líder da banda com quem Joe tem oportunidade de tocar jazz?",
+            "answer": 2,
+            "alternatives": [
+              "Dorothy Weber",
+              "Dorothea Winkler",
+              "Dorothea Williams",
+              "Dorothea Wosh"
+            ]
+          },
+          {
+            "image": "https://media2.giphy.com/media/WSC3ZP8j0F3MVlcDNY/giphy.gif?cid=ecf05e47206214b82580474bc80dca9e9125a05f7307453b&rid=giphy.gif",
+            "title": "Quem é o dublador de Joe Gardner",
+            "answer": 0,
+            "alternatives": [
+              "Jamie Foxx",
+              "James Fox",
+              "Lanny Jones",
+              "Jhonny Foxy"
+            ]
+          },
+          {
+            "image": "https://media4.giphy.com/media/LMn9mIbCHr72zyffCU/giphy.gif?cid=ecf05e47zgity0hz87yjrk0cghkppsen6k3g1byxefyn3xa8&rid=giphy.gif",
+            "title": "Qual desses não foi mentor de 22?",
+            "answer": 3,
+            "alternatives": [
+              "Abraham Lincoln",
+              "Muhammad Ali",
+              "Nicolaus Copernicus",
+              "Michael Jackson"
+            ]
+          },
+          {
+            "image": "https://media0.giphy.com/media/9EeuaIMY5WH40QXAuk/giphy.gif?cid=ecf05e47d7cb85e1c9aee0f2623cf05edfa7415abf0231d7&rid=giphy.gif",
+            "title": "Qual personagem não-humano cuja alma visitou o Grande Além?",
+            "answer": 1,
+            "alternatives": [
+              "Mr. Kittens",
+              "Mr. Mittens",
+              "Mr. Paws",
+              "Mr. Soul"
+            ]
+          },
+          {
+            "image": "https://i.giphy.com/media/HxwgcX5eGjgdzXUF1n/giphy.webp",
+            "title": "Qual personagem quebra a quarta-parede?",
+            "answer": 0,
+            "alternatives": [
+              "Terry",
+              "Jerry",
+              "Larry",
+              "Tierry"
+            ]
+          },
+          {
+            "image": "https://media1.giphy.com/media/lTGwuAKn5NVHSyFnHE/giphy.gif?cid=ecf05e47e92eba2591388f0d1fec38a8715c99a0062b9594&rid=giphy.gif",
+            "title": "Qual é a primeira comida que 22 come na Terra?",
+            "answer": 3,
+            "alternatives": [
+              "Pirulito",
+              "Pretzel",
+              "Hamburger",
+              "Pizza"
+            ]
+          },
+          {
+            "image": "https://media0.giphy.com/media/fb4haewhv8ttpwpfMw/giphy.gif?cid=ecf05e47b279566e08fc37e0cc819abf4bea6dae4a07a0a1&rid=giphy.gif",
+            "title": "Onde Joe e 22 encontraram Bicho Grilo na Terra?",
+            "answer": 1,
+            "alternatives": [
+              "décima terceira com a sétima avenida",
+              "décima quarta com a sétima avenida",
+              "décima terceira com a sétima avenida",
+              "décima quarta com a sexta avenida"
+            ]
+          },
+          {
+            "image": "https://media4.giphy.com/media/Ea57rPXW4x6pgLVZGI/giphy.gif?cid=ecf05e47cc8360aed164de51f6e8efccaaf79d0b5a0cf3fd&rid=giphy.gif",
+            "title": "Qual instrumento a aluna de Joe chamada Connie toca?",
+            "answer": 3,
+            "alternatives": [
+              "Piano",
+              "Saxofone",
+              "Flauta",
+              "Trombone"
             ]
           }
         ],
           "external": [
-            ""
+            "https://aluraquiz-coffee.leonardot07.vercel.app",
+            "https://aluraquiz-seriesquiz.matheusf159.vercel.app/"
           ],
             "theme": {
     "colors": {
@@ -35,7 +124,9 @@
         "mainBg": "#7877BD",
           "contrastText": "#FFFFFF",
             "borderInput": "#C0E2E4",
-              "fillInput": "#6F6EAF"
+              "fillInput": "#6F6EAF",
+                "wrong": "#ff8983",
+                  "success": "#6bdfb8"
 
     },
     "borderRadius": "4px"
