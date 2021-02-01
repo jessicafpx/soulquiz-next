@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const Widget = styled.div`
   width: 100%;
-  margin-top: 24px;
+  margin-top: 12px;
   background-color: ${({ theme }) => theme.colors.mainBg};
   box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 8px;
@@ -10,10 +10,11 @@ const Widget = styled.div`
 
   h1, h2, h3 {
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1;
     margin-bottom: 0;
   }
+
 
   p {
     font-size: 14px;
@@ -57,6 +58,7 @@ Widget.Topic = styled.a`
   background-color: ${({ theme }) => `${theme.colors.fillInput}`};
   padding: 10px 15px;
   margin-bottom: 8px;
+  font-size: 14px;
   cursor: pointer;
   border-radius: ${({ theme }) => theme.borderRadius};
   transition: .3s;
