@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="./assets/bg.jpg" alt="Soul Quiz"/>
+    <img src="./assets/soul.gif" alt="Soul Quiz"/>
 </h1>
 
 
