@@ -68,7 +68,7 @@ export default function Home() {
           animate="show"
         >
           <Widget.Content>
-            <h1>Quizes da galera</h1>
+            <h1>Quizzes da galera</h1>
 
             <ul>
               {db.external.map((linkExterno) => {
