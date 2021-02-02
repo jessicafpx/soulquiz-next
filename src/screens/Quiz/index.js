@@ -46,19 +46,16 @@ function LoadingWidget() {
   return (
     <Widget>
       <Widget.Header>
-        Preparando personalidades, jeitos e interesses...
+        Preparando personalidades e interesses...
       </Widget.Header>
 
       <img
-        alt="Descrição"
+        alt="Gif"
         style={{
-          width: '400px',
-          height: 'auto',
-          objectFit: 'cover',
+          height: '100%',
         }}
         src="https://media4.giphy.com/media/peSReTtKpSKcXlHZeJ/giphy.gif"
       />
-
     </Widget>
   );
 }
