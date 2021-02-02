@@ -36,10 +36,12 @@ export default function Home() {
             <h1>Soul Quiz</h1>
           </Widget.Header>
           <Widget.Content>
-            <form onSubmit={function (infosDoEvento) {
-              infosDoEvento.preventDefault();
-              router.push(`/quiz?name=${name}`);
-            }}
+            <form
+              onSubmit={function (infosDoEvento) {
+                infosDoEvento.preventDefault();
+                router.push(`/quiz?name=${name}`);
+              }}
+              autoComplete="off"
             >
               <Input
                 name="nomeDoUsuario"
