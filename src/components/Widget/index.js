@@ -15,7 +15,6 @@ const Widget = styled.div`
     margin-bottom: 0;
   }
 
-
   p {
     font-size: 14px;
     font-weight: 400;
@@ -36,7 +35,7 @@ Widget.Header = styled.header`
 `;
 
 Widget.Content = styled.div`
-  padding: 24px 32px 32px 32px;
+  padding: 24px 32px 24px 32px;
   & > *:first-child {
     margin-top: 0;
   }
