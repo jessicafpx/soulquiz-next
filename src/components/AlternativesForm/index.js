@@ -17,7 +17,7 @@ const AlternativesForm = styled.form`
     }
   }
   button {
-    margin-top: 24px;
+    margin-top: 12px;
   }
 `;
 
