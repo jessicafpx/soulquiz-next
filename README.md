@@ -9,7 +9,7 @@ Este projeto é um quiz sobre o filme Soul, da Pixar, desenvolvido durante a Ime
 https://soulquiz.jessicafpx.vercel.app/
 
 
-### Tecnologias
+### Tecnologias 
 - Next.js
 - React
 - JavaScript
