@@ -46,4 +46,4 @@ https://soulquiz.jessicafpx.vercel.app/
 
 ---
 
-##### <p align="center"> <strong> < desenvolvido por <a href="https://github.com/jessicafpx"> @jessicafpx</a> /> </strong> 👋
+##### <p align="center"> <strong> <desenvolvido por <a href="https://github.com/jessicafpx"> @jessicafpx</a> /> </strong> 👋
